@@ -1,0 +1,37 @@
+{
+  "addresses":{
+    "Janelle":{
+      "firstName": "Janelle",
+      "lastName": "Zorvan",
+      "streetAdd": "1104A Kirkland Ave",
+      "unit": "",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37216",
+      "email": "jzorvan@gmail.com",
+      "phone": "(865)712-3241"
+    },
+    "Marshall":{
+      "firstName": "Marshall",
+      "lastName": "Willard",
+      "streetAdd": "8009 Montcastle Dr",
+      "unit": "",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37221",
+      "email": "marshallwillard@gmail.com",
+      "phone": "(717)903-7001"
+    },
+    "Jon":{
+      "firstName": "Jonathan",
+      "lastName": "Lee",
+      "streetAdd": "2100 Rosecliff Dr",
+      "unit": "",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37206",
+      "email": "jonathantlee@gmail.com",
+      "phone": "(615)337-7349"
+    }
+  }
+}
