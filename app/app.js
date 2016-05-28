@@ -1,11 +1,10 @@
-var app = angular.module("AddressBookApp", ["ngRoute"])
-  .constant("firebaseURL","https://ng-addressbook-jz.firebaseio.com/");
+var app = angular.module("AddressBookApp", ["ngRoute"]);
 
 app.config(function($routeProvider){
 
   $routeProvider.
 
-    when('/book/list',{
+    when('/book/list', {
       templateUrl: 'partials/contact-list.html',
       controller: 'AddressBookCtrl'
       }).

@@ -28,12 +28,12 @@ app.factory("bookStorage", function($q, $http, firebaseURL){
     });
   };
 
-  var addNewContact = function(newContact){
+  var postNewContact = function(newContact){
     return $q(function(resolve, reject) {
       $http.post("https://ng-addressbook-jz.firebaseio.com/addresses.json",
         JSON.stringify({
           firstName: newContact.firstName,
-          lastName: newContact.lastName\,
+          lastName: newContact.lastName,
           streetAdd: newContact.streetAdd,
           unit: newContact.unit,
           city: newContact.city,
@@ -68,7 +68,7 @@ app.factory("bookStorage", function($q, $http, firebaseURL){
       $http.put("https://ng-addressbook-jz.firebaseio.com/addresses/" + contactID + ".json",
         JSON.stringify({
           firstName: newContact.firstName,
-          lastName: newContact.lastName\,
+          lastName: newContact.lastName,
           streetAdd: newContact.streetAdd,
           unit: newContact.unit,
           city: newContact.city,
